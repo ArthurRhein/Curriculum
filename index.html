@@ -6,6 +6,42 @@
     <title>Currículo | Arthur Rheinheimer</title>
 
     <style>
+
+  .container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .btn-senac {
+
+        display: inline-block;
+        padding: 14px 40px;
+        font-size: 20px;
+        font-weight: bold;
+        font-family: Arial, sans-serif;
+
+        color: #fff;
+        background: linear-gradient(135deg, #ff6a00, #ff8c1a);
+        border-radius: 8px;
+
+        text-decoration: none; 
+        cursor: pointer;
+
+        box-shadow: 0 6px 15px rgba(0, 0, 0, 0.25);
+        transition: all 0.25s ease;
+    }
+
+    .btn-senac:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.35);
+        background: linear-gradient(135deg, #ff7a1a, #ffa033);
+    }
+
+    .btn-senac:active {
+        transform: scale(0.97);
+    }
+
+
         * {
             margin: 0;
             padding: 0;
@@ -14,7 +50,7 @@
         }
 
         body {
-            background: linear-gradient(135deg, #ffffff, #006e00, #008b00);
+            background: linear-gradient(135deg, #003300, #006e00, #008b00);
             min-height: 100vh;
             display: flex;
             align-items: center;
@@ -30,6 +66,7 @@
             box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
             overflow: hidden;
             animation: fadeIn 1s ease-in-out;
+            
         }
 
         @keyframes fadeIn {
@@ -48,6 +85,7 @@
             color: #fff;
             padding: 30px;
             text-align: center;
+            
         }
 
         header img {
@@ -146,6 +184,10 @@
                 </p>
             </section>
         </main>
+
+<form>
+    <a href="https://www.senacrs.com.br/escola/5dc71a36-09b4-4e3a-8e9e-d39b43e39090?gad_source=1&gad_campaignid=23485545263&gbraid=0AAAAADcSz75UkNIrvuDdIJT_8S_60p_pX&gclid=Cj0KCQiAyvHLBhDlARIsAHxl6xq8-Cjkd7eaRpJ43tSj3ZO5fHLpU-PbXc0qvfbUzJG0Ci8DwQtpo7UaAj_JEALw_wcB" class="btn-senac">Senac</a>
+</form>
 
         <footer>
             <p>© <span>Arthur Rheinheimer</span> • Todos os direitos reservados</p>
